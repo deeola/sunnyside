@@ -28,12 +28,10 @@
     align-items: center;
     width: 100px;
 
-    
 }
 
 .selected-lang::before{
     content: '';
-    background-image: url("https://www.countryflags.io/us/flat/32.png");
     display: block;
     width: 32px;
     height: 32px;
@@ -98,4 +96,7 @@
     background-image: url("https://www.countryflags.io/us/flat/32.png");
 }
 
+.currentflag{
+    margin-right: 10px;
+}
 

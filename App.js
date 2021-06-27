@@ -93,6 +93,18 @@ if(window.location.hash){
         footerabout.textContent = language.de.about;
         footerprojects.textContent = language.de.project
 
+
+        //CHANGE LANG TEXT
+
+        selectedlang.textContent = 'Deutsch';
+        //flag change
+
+        // const flagimage =  document.getElementById('selectedlang')
+
+        // console.log(flagimage)
+
+        flagimage.src = 'https://www.countryflags.io/de/flat/32.png'
+
     }
 
 
@@ -108,5 +120,3 @@ datareload.forEach(anchortag => {
     }
 })
 
-
-console.log(document)
