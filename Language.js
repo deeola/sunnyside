@@ -30,7 +30,7 @@ const language = {
     },
     de:{
         "header": 'Transformieren Sie Ihre Marke',
-        "about": 'über',
+        "about": 'Über',
         'project' : 'Projekte',
         'Testimonials' : 'Zeugnisse',
         'heroText' : 'Wir sind Kreative',
