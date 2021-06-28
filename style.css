@@ -635,7 +635,170 @@ footer .footer-container{
         height: 18px;
     } */
 
+    .hero-container .hero-text{
+        font-size: 56px;
+    }
+
+
+    .hero-container .hero-icon{
+        margin-bottom: 200px;
+    }
+
+    .first-section,
+    .second-section{
+        /* display: flex; */
+        flex-direction: row;
+
+
+    }
+
+    .section-image{
+        width: 50%;
+        background-color: violet;
+    }
+
+    .section-image .desktop{
+        display: block;
+        height: 100%;
+    }
+
+
+
+
     
+
+    .first-section-image{
+        order: 2;
+    }
+
+        .first-section-text,
+    .second-section-text{
+        width: 50%;
+        text-align: left;
+        padding: 60px 40px;
+
+    }
+
+
+    .first-section-main-text h2,
+    .second-section-main-text h2{
+
+        font-size: 30px;
+
+
+    }
+
+    .first-section-main-text p,
+    .second-section-main-text p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+
+    .graphics-section{
+        background-image: url('./images/desktop/image-graphic-design.jpg');
+        /* padding: 70px 50px; */
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        padding: 200px 50px 30px 50px;
+        width: 50%;
+        
+
+    }
+    
+    .photography-section{
+        background-image: url('./images/desktop/image-photography.jpg');
+        padding: unset;
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        /* padding: 50px 50px; */
+        padding: 200px 50px 30px 50px;
+        width: 50%;
+    
+    }
+
+    .third-section-main-text{
+        /* padding: 100px 50px 0px 50px; */
+        /* margin-top: 50px; */
+        padding-top: 50px;
+        
+    }
+
+    .third-section-main-text h2{
+        margin-bottom: 10px;
+    }
+
+    .testimonials{
+        padding-top: 100px;
+    }
+
+    .testimonials-container{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        padding-top: 60px;
+        justify-content: space-between;
+    }
+
+    .testimonial-control{
+        width: 30%;
+
+    }
+
+    .testimonial-text{
+        font-size: 14px;
+    }
+
+    .random-desktop-image{
+        display: flex;
+    }
+
+
+    /*Footer*/
+    footer{
+        background-color: var(--Dark-moderate-cyan);
+        
+    }
+    
+    footer .footer-container{
+
+        width: 50%;
+    
+    }
+    
+    .footer-container .footer-logo{
+        width: 30%;
+        
+        
+    }
+    
+
+    
+    .footer-container ul{
+
+        width: 50%;
+
+    
+    }
+    
+    
+    .footer-container .footer-icons{
+
+        width: 30%;
+
+    
+    }
+    
+
 
 }
 
@@ -659,6 +822,91 @@ footer .footer-container{
     .lang-menu ul{
         top: 32px;
     }
+
+    .first-section-text,
+    .second-section-text{
+        width: 50%;
+        text-align: left;
+        padding: 60px 70px;
+
+    }
+
+
+    .first-section-main-text h2,
+    .second-section-main-text h2{
+
+        font-size: 40px;
+        width: 90%;
+
+
+    }
+
+    .first-section-main-text p,
+    .second-section-main-text p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+   
+
+
+}
+
+
+@media (min-width:1200px) {
+
+
+    .first-section-text,
+    .second-section-text{
+        width: 50%;
+        text-align: left;
+        padding: 60px 75px;
+        background-color: wheat;
+
+    }
+
+
+    .first-section-main-text h2,
+    .second-section-main-text h2{
+
+        font-size: 45px;
+        width: 90%;
+        margin-top: 50px;
+
+
+    }
+
+    .first-section-main-text p,
+    .second-section-main-text p{
+        font-size: 16px;
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    .graphics-section{
+        background-image: url('./images/desktop/image-graphic-design.jpg');
+        padding: 150px 50px 30px 50px;
+        width: 50%;
+        
+
+    }
+    
+    .photography-section{
+
+        padding: 150px 50px 30px 50px;
+        width: 50%;
+    
+    }
+
+    .third-section-main-text{
+
+        padding-top: 160px;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 50px;
+        
+    }
+
 
 }
 
