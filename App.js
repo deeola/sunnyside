@@ -117,5 +117,32 @@ gsap.timeline()
         duration: 2
     })
 
+//SECOND SECTION
+
+const cup = document.getElementById('cup');
+
+    tl.from(cup,{
+        duration:1.3,
+        x:-400,
+        ease: 'easeOut'
+    })
+    .from( windowWidth < 750 ? cup.firstElementChild : cup.firstElementChild.nextElementSibling ,{
+        scale:0.9,
+        duration: 1.2,
+        ease : 'easeOut'
+    },.2)
+    .to('.second-section-main-text',{
+    
+        x:0,
+        ease:'easeOut',
+        opacity:1,
+        duration: 2
+    })
+
+   
+
+
+
+
 
 

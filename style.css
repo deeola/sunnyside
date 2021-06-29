@@ -937,7 +937,8 @@ footer .footer-container{
 
 
 
-.first-section-main-text{
+.first-section-main-text,
+.second-section-main-text{
     transform: translateX(400px);
     opacity: 0;
 
