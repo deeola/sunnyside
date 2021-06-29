@@ -44,6 +44,7 @@ img{
 
 body{
     position: relative;
+    overflow-x: none;
 }
 
 /*Header Styling*/
