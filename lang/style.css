@@ -939,7 +939,7 @@ footer .footer-container{
 
 .first-section-main-text,
 .second-section-main-text{
-    transform: translateX(400px);
+    transform: translateX(410px);
     opacity: 0;
 
 }
