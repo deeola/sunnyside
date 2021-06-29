@@ -3,6 +3,9 @@ const backgroundLayer = document.getElementById('background')
 
 const navbar = document.getElementById('nav-lang-container');
 
+gsap.registerPlugin(ScrollTrigger);
+
+
 hamburger.addEventListener('click', () => {
     navbar.classList.toggle('showNav')
     backgroundLayer.classList.toggle('showNav')
@@ -73,3 +76,46 @@ gsap.timeline()
         scale:0,
         rotation:360
     })
+
+
+    //SECTION ANIMATIONS
+
+
+
+const eggDiv = document.getElementById('section-image');
+
+gsap.timeline()
+    .from(eggDiv,{
+        duration:1.2,
+        x:-300,
+        ease: 'easeOut'
+    })
+    .from( windowWidth < 750 ? eggDiv.firstElementChild : eggDiv.firstElementChild.nextElementSibling ,{
+        scale:0.9,
+        duration: 1.2,
+        ease : 'easeOut'
+
+    },.2)
+
+
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger : '.first-section-main-text'
+        }
+
+    })
+
+    tl.to('.first-section-main-text',{
+        
+        // scrollTrigger: {
+        //     trigger : '.first-section-main-text'
+        // },
+
+        x:0,
+        ease:'easeOut',
+        opacity:1,
+        duration: 2
+    })
+
+
+

@@ -98,7 +98,7 @@ header{
     flex-direction: column;
     background: var(--White);
     visibility:hidden;
-    z-index: 2;
+    z-index: 3;
 
 }
 
@@ -110,6 +110,7 @@ header{
     justify-content: space-between;
     height: 80%;
     padding: 40px;
+
    
 
 
@@ -530,6 +531,10 @@ footer .footer-container{
     visibility: visible;
 }
 
+/* .first-section-image{
+    background-color: var(--Yellow);
+} */
+
 
 /*MEDIA QUERY*/
 
@@ -675,7 +680,6 @@ footer .footer-container{
 
     .section-image{
         width: 50%;
-        background-color: violet;
     }
 
     .section-image .desktop{
@@ -882,7 +886,7 @@ footer .footer-container{
         width: 50%;
         text-align: left;
         padding: 60px 75px;
-        background-color: wheat;
+
 
     }
 
@@ -931,3 +935,10 @@ footer .footer-container{
 
 }
 
+
+
+.first-section-main-text{
+    transform: translateX(400px);
+    opacity: 0;
+
+}
